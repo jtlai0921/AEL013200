@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:stretchColumns="1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+<!--
+ android:collapseColumns="0"
+ android:collapseColumns="1"
+ android:shrinkColumns="1" 
+ android:stretchColumns="0"
+--> 
+  
+  <!--   
+  <TableRow>    
+   <EditText android:id="@+id/editText1" 
+             android:layout_width="wrap_content" 
+             android:layout_height="wrap_content" 
+             android:text="EditText1"></EditText>      
+   <EditText android:id="@+id/editText2" 
+             android:layout_width="wrap_content" 
+             android:layout_height="wrap_content" 
+             android:text="EditText2"></EditText>      
+  </TableRow>
+  <TableRow>
+   <EditText android:id="@+id/editText3" 
+             android:layout_width="wrap_content" 
+             android:layout_height="wrap_content" 
+             android:text="EditText3"></EditText>
+   <EditText android:id="@+id/editText4" 
+             android:layout_width="wrap_content" 
+             android:layout_height="wrap_content" 
+            android:text="EditText4"></EditText>      
+   </TableRow>
+   -->
+   
+    
+    <TableRow>    
+     <EditText 
+      android:id="@+id/editText1" 
+      android:layout_width="wrap_content" 
+      android:layout_height="wrap_content" 
+      android:text="EditText1"></EditText>
+      
+     <EditText 
+      android:id="@+id/editText2" 
+      android:layout_width="wrap_content" 
+      android:layout_height="wrap_content" 
+      android:text="EditText2"></EditText>      
+    </TableRow>
+        
+    <EditText android:id="@+id/editText3" android:layout_width="match_parent" 
+    android:layout_height="wrap_content" android:text="EditText3"></EditText>      
+   
+</TableLayout>

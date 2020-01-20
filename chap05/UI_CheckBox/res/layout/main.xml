@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+   <TextView  
+    android:id="@+id/txt1"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text=""/>
+   
+   <CheckBox 
+    android:id="@+id/box1"
+    android:text="Android技術"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:checked="true"/> 
+   
+   <CheckBox 
+    android:id="@+id/box2"
+    android:text="雲端技術"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"/>
+    
+   <CheckBox 
+    android:id="@+id/box3"
+    android:text="Java技術"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"/> 
+     
+</LinearLayout>

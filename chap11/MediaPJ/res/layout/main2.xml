@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+  
+  <Button  
+    android:id="@+id/loadBtn"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="載入"/>
+    
+  <Button  
+    android:id="@+id/startBtn"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="播放"/>
+  
+  <Button  
+    android:id="@+id/pauseBtn"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="暫停"/>
+
+  <Button  
+    android:id="@+id/stopBtn"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="停止"/>
+                
+  </LinearLayout>
+  
+  
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+  
+  <Button  
+    android:id="@+id/upBtn"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="大聲"/>
+    
+  <Button  
+    android:id="@+id/downBtn"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="小聲"/>
+                  
+  </LinearLayout>
+  
+  <ProgressBar
+    android:id="@+id/myProgressBar"
+    style="?android:attr/progressBarStyleHorizontal"
+    android:layout_width="168dip"
+    android:layout_height="wrap_content"
+    android:max="15"
+    android:progress="0"
+    android:layout_x="110px"
+    android:layout_y="102px"/>
+  
+</LinearLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+ <CheckBox 
+  android:id="@+id/box1"
+  android:text="新光三越"
+  android:layout_width="wrap_content" 
+  android:layout_height="wrap_content"
+  android:checked="false"/>
+ 
+ <CheckBox 
+  android:id="@+id/box2"
+  android:text="太平洋SOGO"
+  android:layout_width="wrap_content" 
+  android:layout_height="wrap_content"
+  android:checked="false"/>
+   
+ <CheckBox 
+  android:id="@+id/box3"
+  android:text="京華城"
+  android:layout_width="wrap_content" 
+  android:layout_height="wrap_content"
+  android:checked="false"/>
+   
+ <CheckBox 
+  android:id="@+id/box4"
+  android:text="大葉高島屋"
+  android:layout_width="wrap_content" 
+  android:layout_height="wrap_content"
+  android:checked="false"/>
+ 
+ <CheckBox 
+  android:id="@+id/box5"
+  android:text="京站時尚廣場"
+  android:layout_width="wrap_content" 
+  android:layout_height="wrap_content"
+  android:checked="false"/>
+  
+ <CheckBox 
+  android:id="@+id/box6"
+  android:text="微風廣場"
+  android:layout_width="wrap_content" 
+  android:layout_height="wrap_content"
+  android:checked="false"/>
+ 
+ <CheckBox 
+  android:id="@+id/box7"
+  android:text="遠東百貨"
+  android:layout_width="wrap_content" 
+  android:layout_height="wrap_content"
+  android:checked="false"/>
+ 
+ <CheckBox 
+  android:id="@+id/box8"
+  android:text="BELLAVITA"
+  android:layout_width="wrap_content" 
+  android:layout_height="wrap_content"
+  android:checked="false"/>
+ 
+ <CheckBox 
+  android:id="@+id/box9"
+  android:text="美麗華百樂園"
+  android:layout_width="wrap_content" 
+  android:layout_height="wrap_content"
+  android:checked="false"/>
+ 
+ <CheckBox 
+  android:id="@+id/box10"
+  android:text="明曜百貨"
+  android:layout_width="wrap_content" 
+  android:layout_height="wrap_content"
+  android:checked="false"/>
+ 
+ <Button android:text="行程規劃" 
+  android:id="@+id/btn1" 
+  android:layout_width="wrap_content" 
+  android:layout_height="wrap_content"/>
+  
+</LinearLayout>

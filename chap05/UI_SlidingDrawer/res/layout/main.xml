@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+      
+  <SlidingDrawer
+    android:id="@+id/myDrawer"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:handle="@+id/btn"
+    android:content="@+id/content"
+    android:orientation="horizontal">
+  
+  <Button  
+    android:id="@+id/btn"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:text="開/關"/>
+  
+  <LinearLayout
+    android:id="@+id/content"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff">
+     
+   <TextView
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text="Hello World! Android!"/>
+       
+   </LinearLayout>    
+  </SlidingDrawer>
+</LinearLayout>
+

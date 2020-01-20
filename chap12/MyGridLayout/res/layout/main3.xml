@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:columnCount="3">
+
+ <EditText 
+   android:id="@+id/edit1"
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+   android:layout_columnSpan="3"
+   android:text="EditText1"/>
+ 
+ <EditText 
+   android:id="@+id/edit2"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   android:layout_rowSpan="2"
+   android:text="EditText2"/>
+ 
+ <EditText 
+   android:id="@+id/edit3"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   android:text="EditText3"/>
+ 
+ <EditText 
+   android:id="@+id/edit4"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   android:text="EditText4"/>
+ 
+ <EditText 
+   android:id="@+id/edit5"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   android:text="EditText5"/>
+     
+</GridLayout>
